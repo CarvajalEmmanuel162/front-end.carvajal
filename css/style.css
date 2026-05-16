@@ -13,13 +13,13 @@
     background: #111;
     color: #d4a017;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border: 1.5px solid black;
+    border: 1.5px solid #000000;
 }
 
 .superior {
-    background-color: rgba(206, 214, 221, 0.466);
+    background-color: #ced6dd77;
     display: flex;
     gap: 50px;
     list-style: none;
@@ -29,27 +29,65 @@
 .superior li {
     width: 90px;
     text-align: center;
-    border: 1.5px solid black;
+    border: 1.5px solid #000000;
     border-top: none;
     border-radius: 0 0 5px 5px;
     cursor: pointer;
     transition: 0.3s;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
 .superior li:hover {
     background-color: #000;
-    color: white;
+    color: #ffffff;
 }
+
+.superior li:hover a {
+    background-color: #000;
+    color: #ffffff;
+}
+
  
 .h1 {
     align-content: center;
 }
 
 body {
-    background-color: rgb(160, 181, 199);
+    background-color: #a0b5c7;
 }
-img {
-    width: 15%;
+.logo {
+    background-color: #d4a017;
+    border-radius: 10%;
     
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+.botones button{
+    background-color: #d4a017;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botones button:hover {
+    background-color: #610404;
+    /*BORRAR AL CREAR EL ENLASE DE INICIO*/
+    color: #d4a017;
+    transform: scale(1.05);
+}
+
+.botones button:hover a {
+    color: #d4a017;
 }
 /*carrousel generado con chatGPT*/
 .carousel {
@@ -114,6 +152,41 @@ img {
 
 .btn:hover {
     background: rgba(0,0,0,0.8);
+}
+
+.formulario {
+    width: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit{
+    background-color: #d4a017;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    height: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    background-color: #610404;
+    /*BORRAR AL CREAR EL ENLASE DE INICIO*/
+    color: #d4a017;
+    transform: scale(1.05);
 }
 
 /*footer chatGPT*/
