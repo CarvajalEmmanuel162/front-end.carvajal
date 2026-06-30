@@ -13,25 +13,56 @@
     <title>Iron String</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="encabezado">
-            <img class="logo" src="./archivo/guitarra-logo.png" alt="">
+            <a href="./index.html"><img class="logo" src="./archivo/guitarra-logo.png" alt="" ></a>
             <h1>Iron String</h1>
             <div class="botones">
-                <button> <a href="./login.html">Registrate</a></button>
-                <button>Iniciar sesión</button>
+                <button id="btnRegistro">Registrate</button>
+                <button id="btnLogin">Iniciar sesión</button>
             </div>
         </div>
         
         <nav>
             <ul class="superior">
-                <li> <a href="#productos">Productos</a></li>
+                <li class="conMenu"> <a href="#productos">Productos</a>
+                    <ul class="submenu">
+                        <li><a href="#guitarras">Guitarras</a></li>
+                        <li><a href="#amplificadores">Amplificadores</a></li>
+                        <li><a href="#pedales">Pedales</a></li>
+                    </ul>
+                </li>
                 <li> <a href="./contactanos.html">Contactanos</a></li>
                 <li>Nosotros</li>
            </ul>
         </nav>
     </header>
     <main>
+<!--APARECE EL FORMULARIO AL HACER CLICK EN BOTON-->
+        <div id="overlay" class="overlay">
+            <div class="modal">
+                <button id="cerrarBtn">X</button>
+                <div id="mensajeToast" class="toast_oculto"></div>
+
+                <div id="formLogin" class="formulario_oculto">
+                    <h2>Iniciar sesión</h2>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Entrar</button>
+                    <p>¿No tenés cuenta? <button type="button" id="irARegistro" class="linkBtn">Registrate acá</button></p>
+                </div>
+
+                <div id="formRegistro" class="formulario_oculto">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Crear cuenta</button>
+                    <p>¿Ya tenés cuenta? <button type="button" id="irALogin" class="linkBtn">Iniciar sesión</button></p>
+                </div>
+            </div>
+        </div>
+<!--CARROUSEL DE PRODUCTOS-->
         <div class="carousel">
             <button class="btn prev">&#10094;</button>
             <div class="carousel-container">
@@ -45,27 +76,25 @@
 
         <section id="productos" >
             <div class="productos">
-                <div>
-                    <img src="./archivo/productos/fender-stc.webp" alt="">
-                </div>
-                <div>
-                    <img src="./archivo/productos/texas-stc.webp" alt="">
-                </div>
+                <section id="guitarras">
 
+                </section>
+                <section id="amplificadores">
+                
+                </section>
+                <section id="pedales">
+                
+                 
+                </section>
             </div>
-            <p>Productos</p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut cumque, recusandae at culpa eligendi perferendis assumenda incidunt laudantium illo, excepturi alias! Totam numquam doloribus saepe quidem omnis quisquam suscipit!
-            Reprehenderit repellendus magnam magni doloremque placeat quam. Eos explicabo eius laudantium aut hic quaerat excepturi magnam tempore pariatur sint earum laborum reprehenderit officia unde, nihil nesciunt nisi culpa dignissimos perspiciatis!
-            Vitae quasi perferendis quia error a eos tempora minima mollitia, repudiandae reprehenderit temporibus eveniet, aut rem hic iusto alias? Delectus voluptatem debitis soluta qui, eum nihil dolore? A, inventore rerum!
-            Iusto expedita suscipit, obcaecati, accusantium fugit, quod sed similique sapiente ipsa deleniti quibusdam vitae ut impedit officiis culpa ipsam est voluptatem placeat cum illum saepe quidem nisi? Omnis, voluptas consequatur.
-            Porro voluptatem voluptatum voluptas esse rerum nisi nobis neque et quasi, maiores dolores dolore ducimus exercitationem id aspernatur? Nisi, laborum. Dignissimos quibusdam, quod eaque corrupti iure atque sequi saepe nostrum?
         </section>
-    
+          <p>Productos</p>
+        <a href="./contactanos.html">¿No encontraste lo que buscabas? Contactanos.</a>
     </main>
     <footer class="footer">
 
     <div class="marca">
-        <h2>Iron String</h2>
+        <a href="./index.html"><h2>Iron String</h2></a>
         <p>Pasión por el sonido y la música.</p>
     </div>
 

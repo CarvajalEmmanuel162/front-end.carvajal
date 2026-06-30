@@ -1,0 +1,31 @@
+{
+  "guitarras": [
+    {
+      "imagen": "./archivo/productos/epiphone-stc.jpg",
+      "titulo": "Epiphone",
+      "descripcion": "Diseño clásico y cómodo, ideal para principiantes y músicos de nivel intermedio. Cuenta con un sonido versátil y definido, perfecto para tocar rock, blues, pop y otros estilos."
+    },
+    {
+      "imagen": "./archivo/productos/fender-stc.webp",
+      "titulo": "Montaña",
+      "descripcion": "fdkjjhdfh ujdhfujtb iu kjg iu y uy "
+    }
+  ],
+
+  "amplificadores": [
+    {
+      "imagen": "./archivo/productos/",
+      "titulo": "Amplificador",
+      "descripcion": "dfdskjosthesioughodjknkl fjkg  oo oioi oi oihghiou"
+      
+    }
+  ],
+
+  "pedales": [
+    {
+      "titulo": "Perro",
+      "imagen": "./archivo/productos/squire-stc.avif",
+      "descripcion": "dfdskjosthesioughodjknkl fjkg  oo oioi oi oihghiou"
+    }
+  ]
+}

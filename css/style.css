@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
+body {
+    background-color: #a0b5c7;
+    margin-top: 85px;
+    /* padding-top: 85px; */
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+
+  transition: transform 0.3s ease;
 }
 
 .encabezado {
@@ -18,50 +33,26 @@
     border: 1.5px solid #000000;
 }
 
-.superior {
-    background-color: #ced6dd77;
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
+.logo {
+    background-color: #d4a017;
+    border-radius: 10%;
+    width: 60px;
+    height: 60px;   
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
 }
-.superior li {
-    width: 90px;
-    text-align: center;
-    border: 1.5px solid #000000;
-    border-top: none;
-    border-radius: 0 0 5px 5px;
-    cursor: pointer;
-    transition: 0.3s;
+
+.logo:hover {
+    transform: rotateY(360deg);
 }
 
 a {
     text-decoration: none;
     color: #000;
 }
-.superior li:hover {
-    background-color: #000;
-    color: #ffffff;
-}
 
-.superior li:hover a {
-    background-color: #000;
-    color: #ffffff;
-}
-
- 
 .h1 {
     align-content: center;
-}
-
-body {
-    background-color: #a0b5c7;
-}
-.logo {
-    background-color: #d4a017;
-    border-radius: 10%;
-    
 }
 
 .botones {
@@ -88,6 +79,71 @@ body {
 
 .botones button:hover a {
     color: #d4a017;
+}
+
+.superior {
+    background-color: #ced6dd77;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.superior > li {
+    width: 90px;
+    text-align: center;
+    border: 1.5px solid #000000;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.superior li:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.superior li:hover a {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.conMenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+    min-width: 180px;
+}
+
+.submenu li a {
+    width: auto;    
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background: #610404;
+    color: #d4a017;
+    border-radius: 5px;
+}
+
+.conMenu:hover .submenu {
+    display: block;
+}
+
+
+section {
+    scroll-margin-top: 85px;
 }
 /*carrousel generado con chatGPT*/
 .carousel {
@@ -154,6 +210,110 @@ body {
     background: rgba(0,0,0,0.8);
 }
 
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgb(40, 167, 69);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    z-index: 10000;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+
+.toast.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast.error {
+    background: rgb(220, 53, 69);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay.activo {
+    display: flex;
+    opacity: 1;
+}
+
+.modal {
+    width: 80%;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
+.overlay.activo.modal {
+    transform: scale(1);
+}
+
+.formulario {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fomulario.activo {
+    display: flex;
+}
+
+.formulario input {
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+#cerrarBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}
+
+.linkBtn {
+    background: none;
+    border: none;
+    color: rgb(0, 123, 255);
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 14px;
+}
+
+.linkBtn:hover {
+    color: rgb(0, 86, 179);
+}
+
+/* 
 .formulario {
     width: auto;
     border: 2px solid black;
@@ -180,7 +340,7 @@ form {
     height: 50%;
     cursor: pointer;
     transition: 0.3s;
-}
+} */
 
 .submit:hover {
     background-color: #610404;
@@ -190,31 +350,81 @@ form {
 }
 
 .productos {
-    display: flex;
-    width: 98%;
-    height: 600px;
-    border: 1px solid #000000;
-    margin: 1%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
     gap: 5px;
+    width: 98%;
+    margin: 1%;
+    border: 2px solid #000;
     padding: 5px;
+    
 }
 
-.productos div {
-    width: 200px;
-    height: 200px;
-    border: 1.5px solid #000;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;   
-    background-color: #dbe4ec; 
+#imagenes {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px 20px;
 }
 
-.productos img{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+.card {
+  width: 100%;
+  aspect-ratio: 3/4;
+  perspective: 1000px;
+  border: 1.5px solid #000;
+  border-radius: 10px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card-back {
+  background: #222;
+  color: white;
+  transform: rotateY(180deg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.card-back h3 {
+  margin: 0 0 10px;
+}
+
+.card-back p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
 }
 
 /*footer chatGPT*/
@@ -247,17 +457,19 @@ form {
 @media screen and (max-width: 768px) {
 
     .encabezado {
-        flex-direction: column;
+        flex-direction: row;
+        
         gap: 15px;
         padding: 10px;
         text-align: center;
     }
 
     .superior {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
-        width: 100%;
-        padding: 10px 0;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .superior li {
@@ -275,7 +487,7 @@ form {
     }
 
     .botones {
-        width: 100%;
+        width: 30%;
         height: auto;
         gap: 10px;
         align-items: center;
@@ -299,7 +511,8 @@ form {
     }
 
     /* Formulario */
-    .formulario {
+    /* .formulario {
+        display: none;
         margin: 20px 10px;
         padding: 15px;
     }
@@ -318,7 +531,7 @@ form {
     .submit {
         width: 100%;
         height: 45px;
-    }
+    } */
 
     /* Productos */
     .productos {
