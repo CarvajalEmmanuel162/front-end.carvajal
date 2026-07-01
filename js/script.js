@@ -96,7 +96,9 @@ const toast = document.getElementById("mensajeToast");
     toast.textContent = texto;
     toast.className = "toast";
 
-    if(tipo==="error") toast.classList("error")
+    if(tipo==="error") toast.classList.add("error");
+
+    setTimeout(() => toast.classList.add("mostrar"), 10);
 
     setTimeout(() => {
       toast.classList.remove("mostrar");
@@ -132,11 +134,12 @@ formLogin.querySelector("button").addEventListener("click", (e) => {
   if(usuarioGuardado && 
     inputs[0].value === usuarioGuardado.email && 
     inputs[1].value === usuarioGuardado.password) {
-      mostrarMensaje("Ingresaste con éxito")
+      mostrarMensaje("Ingresaste con éxito");
+      setTimeout(() => overlay.classList.remove("activo"), 1000);
   }else {
     mostrarMensaje("Email o contraseña incorrectos", "error");
   }
-})
+});
 
 
 
