@@ -119,7 +119,12 @@ formRegistro.querySelector("button").addEventListener("click", (e) => {
   if(usuario.nombre && usuario.email && usuario.password) {
     localStorage.setItem("usuario", JSON.stringify(usuario));
     mostrarMensaje("Registro guardado con éxito");
-    setTimeout(() => overlay.classList.remove("activo"),1000);
+    setTimeout(() => {
+      formRegistro.classList.add("oculto");
+      formLogin.classList.remove("oculto");
+      formRegistro.classList.remove("activo");
+      formLogin.classList.add("activo");
+    },1000);//Este bloque del setTimeOut alterna al formLogin una vez registrado
   }else {
     mostrarMensaje("Completá todos los campos", "error");
   }
