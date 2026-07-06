@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,18 @@
     <link rel="icon" href="./archivo/favicon.ico" type="image/x-icon">
     <title>Iron String</title>
 </head>
+
 <body>
     <header class="header">
         <div class="encabezado">
-            <a href="./index.html"><img class="logo" src="./archivo/guitarra-logo.png" alt="" ></a>
+            <a href="./index.html"><img class="logo" src="./archivo/guitarra-logo.png" alt=""></a>
             <h1>Iron String</h1>
             <div class="botones">
                 <button id="btnRegistro">Registrate</button>
                 <button id="btnLogin">Iniciar sesión</button>
             </div>
         </div>
-        
+
         <nav>
             <ul class="superior">
                 <li class="conMenu"> <a href="#productos">Productos</a>
@@ -34,11 +36,11 @@
                 </li>
                 <li> <a href="./contactanos.html">Contactanos</a></li>
                 <li>Nosotros</li>
-           </ul>
+            </ul>
         </nav>
     </header>
     <main>
-<!--APARECE EL FORMULARIO AL HACER CLICK EN BOTON-->
+        <!--APARECE EL FORMULARIO AL HACER CLICK EN BOTON-->
         <div id="overlay" class="overlay">
             <div class="modal">
                 <button id="cerrarBtn">X</button>
@@ -49,7 +51,8 @@
                     <input type="email" placeholder="Email">
                     <input type="password" placeholder="Contraseña">
                     <button class="submit">Entrar</button>
-                    <p>¿No tenés cuenta? <button type="button" id="irARegistro" class="linkBtn">Registrate acá</button></p>
+                    <p>¿No tenés cuenta? <button type="button" id="irARegistro" class="linkBtn">Registrate acá</button>
+                    </p>
                 </div>
 
                 <div id="formRegistro" class="formulario oculto">
@@ -62,7 +65,7 @@
                 </div>
             </div>
         </div>
-<!--CARROUSEL DE PRODUCTOS-->
+        <!--CARROUSEL DE PRODUCTOS-->
         <div class="carousel">
             <button class="btn prev">&#10094;</button>
             <div class="carousel-container">
@@ -74,44 +77,48 @@
             <button class="btn next">&#10095;</button>
         </div>
 
-        <section id="productos" >
+        <section id="productos">
             <div class="productos">
-                <section id="guitarras">
+                <section id="guitarras" class="prod">
 
                 </section>
-                <section id="amplificadores">
-                
+                <section id="amplificadores" class="prod">
+
                 </section>
-                <section id="pedales">
-                
-                 
+                <section id="pedales" class="prod">
+
+
                 </section>
             </div>
         </section>
-          <p>Productos</p>
+        <p>Productos</p>
         <a href="./contactanos.html">¿No encontraste lo que buscabas? Contactanos.</a>
     </main>
     <footer class="footer">
 
-    <div class="marca">
-        <a href="./index.html"><h2>Iron String</h2></a>
-        <p>Pasión por el sonido y la música.</p>
-    </div>
+        <div class="marca">
+            <a href="./index.html">
+                <h2>Iron String</h2>
+            </a>
+            <p>Pasión por el sonido y la música.</p>
+        </div>
 
-    <div class="categorias">
-        <h3>Categorías</h3>
-        <p>Guitarras eléctricas</p>
-        <p>Amplificadores</p>
-        <p>Pedaleras</p>
-    </div>
+        <div class="categorias">
+            <h3>Categorías</h3>
 
-    <div class="contacto">
-        <h3>Contacto</h3>
-        <p>guitarshop@email.com</p>
-        <p>+54 11 1234 5678</p>
-    </div>
+            <a href="#guitarras">Guitarras eléctricas</a>
+            <a href="#amplificadores">Amplificadores</a>
+            <a href="#pedales">Pedaleras</a>
+        </div>
 
-</footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>guitarshop@email.com</p>
+            <p>+54 11 1234 5678</p>
+        </div>
+
+    </footer>
     <script src="./js/script.js"></script>
 </body>
+
 </html>

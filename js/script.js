@@ -173,10 +173,10 @@ function cargarGrupo(grupo, contenedorId) {
       <div class="card-inner">
         <div class="card-front">
           <img src="${item.imagen}" alt="${item.titulo}">
+          <h3>${item.titulo}</h3>
         </div>
 
         <div class="card-back">
-          <h3>${item.titulo}</h3>
           <p>${item.descripcion}</p>
         </div>
       </div>

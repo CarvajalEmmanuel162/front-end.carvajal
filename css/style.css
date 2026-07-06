@@ -337,7 +337,7 @@ section {
 .productos {
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 5px;
+    gap: 20px 20px;
     width: 98%;
     margin: 1%;
     border: 2px solid rgb(0, 0, 0);
@@ -345,9 +345,9 @@ section {
 
 }
 
-#imagenes {
+.prod {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px 20px;
 }
 
@@ -402,8 +402,8 @@ section {
 
 }
 
-.card-back h3 {
-    margin: 0 0 10px;
+.card-front h3 {
+    position: fixed;
 }
 
 .card-back p {
@@ -434,6 +434,11 @@ section {
 .footer h2,
 .footer h3 {
     color: rgb(212, 160, 23);
+}
+
+.categorias>a {
+    background: none;
+    color: rgb(255, 255, 255);
 }
 
 /* =========================

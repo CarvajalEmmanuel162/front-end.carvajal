@@ -1,14 +1,40 @@
 {
   "guitarras": [
     {
-      "imagen": "./archivo/productos/epiphone-stc.jpg",
-      "titulo": "Epiphone",
-      "descripcion": "Diseño clásico y cómodo, ideal para principiantes y músicos de nivel intermedio. Cuenta con un sonido versátil y definido, perfecto para tocar rock, blues, pop y otros estilos."
+      "id": 1,
+      "imagen": "./archivo/productos/fender-stc.webp",
+      "titulo": "Fender strato",
+      "descripcion": "Cuerpo ergonómico,mástil atornillado de arce y configuración clasica de 3 mocrófonos simples(SSS) junto a un selector de 5 posiciones otorgan a este modelo un sonido brillante.",
+      "precio": 2500000
     },
     {
-      "imagen": "./archivo/productos/fender-stc.webp",
-      "titulo": "Montaña",
-      "descripcion": "fdkjjhdfh ujdhfujtb iu kjg iu y uy "
+      "id": 2,
+      "imagen": "./archivo/productos/field-stc.webp",
+      "titulo": "Field strato",
+      "descripcion": "Configuración clasica de 3 mocrófonos simples(SSS) junto a un selector de 5 posiciones otorgan a este modelo un sonido brillante. Su cuerpo de madera multilaminado lo hace ideal para largar horas de practicas.",
+      "precio": "240000"
+    },
+    {
+      "id": 3,
+      "imagen": "./archivo/productos/ibanez-stc.webp",
+      "titulo": "Ibanez superstrats",
+      "descripcion": "Mastil mas ergonomico para facilitar la digitación. Incluye pastillas Humbucker que otorgan sonidos mas limpio. Ideal para usar con distorción.",
+      "precio": 590000
+    },
+    {
+      "id": 4,
+      "imagen": "./archivo/productos/kansas-stc.webp",
+      "titulo": "Kansas strato",
+      "descripcion": "Ideal para principiantes y estudiantes. Esta guitarra de cuerpo liviano posee 3 microfonos y tremolo con palanca.",
+      "precio": 310000
+    },
+    {
+      "id": 0,
+      "imagen": "./archivo/productos/epiphone-stc.jpg",
+      "titulo": "Epiphone strato",
+      "descripcion": "Diseño clásico y cómodo, ideal para principiantes y músicos de nivel intermedio. Cuenta con un sonido versátil y definido, perfecto para tocar rock, blues, pop y otros estilos.",
+      "precio": 500000
+
     }
   ],
 
