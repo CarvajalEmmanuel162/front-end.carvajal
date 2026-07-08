@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--linck de favicon.io-->
     <link rel="apple-touch-icon" sizes="180x180" href="./archivo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="./archivo/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./archivo/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./archivo/favicon-16x16.png">
     <link rel="manifest" href="./archivo/site.webmanifest">
@@ -19,10 +20,11 @@
         <div class="encabezado">
             <a href="./index.html"><img class="logo" src="./archivo/guitarra-logo.png" alt=""></a>
             <h1>Iron String</h1>
-            <div class="botones">
+            <div class="botones" id="botonera">
                 <button id="btnRegistro">Registrate</button>
                 <button id="btnLogin">Iniciar sesión</button>
             </div>
+            <div id="mensajeBienvenida" class="mEntrada oculto"></div>
         </div>
 
         <nav>
@@ -94,6 +96,12 @@
         <p>Productos</p>
         <a href="./contactanos.html">¿No encontraste lo que buscabas? Contactanos.</a>
     </main>
+    <!--modal carrito -->
+    <div id="overlay-carrito">
+        <div id="carrito" class="sidebar-carrito">
+            
+        </div>
+    </div>
     <footer class="footer">
 
         <div class="marca">

@@ -5,37 +5,107 @@
       "imagen": "./archivo/productos/fender-stc.webp",
       "titulo": "Fender strato",
       "descripcion": "Cuerpo ergonómico,mástil atornillado de arce y configuración clasica de 3 mocrófonos simples(SSS) junto a un selector de 5 posiciones otorgan a este modelo un sonido brillante.",
-      "precio": 2500000
+      "precio": 590000
     },
     {
       "id": 2,
-      "imagen": "./archivo/productos/field-stc.webp",
+      "imagen": "./archivo/productos/field-stc.png",
       "titulo": "Field strato",
-      "descripcion": "Configuración clasica de 3 mocrófonos simples(SSS) junto a un selector de 5 posiciones otorgan a este modelo un sonido brillante. Su cuerpo de madera multilaminado lo hace ideal para largar horas de practicas.",
+      "descripcion": "Configuración clasica de 3 mocrófonos simples(SSS) junto a un selector de 5 posiciones otorgan a este modelo un sonido brillante. Su cuerpo de madera multilaminado lo hace ideal para largas horas de practicas.",
       "precio": "240000"
     },
     {
       "id": 3,
-      "imagen": "./archivo/productos/ibanez-stc.webp",
-      "titulo": "Ibanez superstrats",
-      "descripcion": "Mastil mas ergonomico para facilitar la digitación. Incluye pastillas Humbucker que otorgan sonidos mas limpio. Ideal para usar con distorción.",
-      "precio": 590000
+      "imagen": "./archivo/productos/leonard-stc.png",
+      "titulo": "Leonard strato",
+      "descripcion": "Su cuerpo de madera de Aliso ofrece un peso intermedio y una resonancia equilibrada. Diapasón de Palo de Rosa con 22 trastes y una configuración de 3 micrófonos pasivos proporcionan el sonido clásico de este diseño.",
+      "precio": 280000
     },
     {
       "id": 4,
-      "imagen": "./archivo/productos/kansas-stc.webp",
+      "imagen": "./archivo/productos/kansas-stc.png",
       "titulo": "Kansas strato",
       "descripcion": "Ideal para principiantes y estudiantes. Esta guitarra de cuerpo liviano posee 3 microfonos y tremolo con palanca.",
       "precio": 310000
     },
     {
-      "id": 0,
-      "imagen": "./archivo/productos/epiphone-stc.jpg",
+      "id": 5,
+      "imagen": "./archivo/productos/squire-stc.png",
+      "titulo": "Squire strato",
+      "descripcion": "Ideal para principiantes y estudiantes. Esta guitarra de cuerpo liviano posee 3 microfonos y tremolo con palanca.",
+      "precio": 310000
+    },
+    {
+      "id": 6,
+      "imagen": "./archivo/productos/texas-stc.png",
+      "titulo": "Texas strato",
+      "descripcion": "Construido en madera maciza de Lenga y mastil de Arce con alma regulable, le da un peso aprox. de 3kg que lo hace ideal para tocar parado. Sus 3 micrófonos pasivos regulados mediante selectora de 5 posiciones da un sonido clasico strato.",
+      "precio": 320000      
+    },
+    {
+      "id": 7,
+      "imagen": "./archivo/productos/ibanez-stc.png",
+      "titulo": "Ibanez superstrats",
+      "descripcion": "Mastil mas ergonomico para facilitar la digitación. Incluye pastillas Humbucker que otorgan sonidos mas limpio. Ideal para usar con distorción.",
+      "precio": 780000
+    },
+    {
+      "id": 8,
+      "imagen": "./archivo/productos/epiphone-stc.png",
       "titulo": "Epiphone strato",
       "descripcion": "Diseño clásico y cómodo, ideal para principiantes y músicos de nivel intermedio. Cuenta con un sonido versátil y definido, perfecto para tocar rock, blues, pop y otros estilos.",
-      "precio": 500000
+      "precio": 650000
 
-    }
+    },
+    {
+      "id": 9,
+      "imagen": "./archivo/productos/newen-tlc.webp",
+      "titulo": "Newen telecaster",
+      "descripcion": "Diseñado en madera de Lenga de la Patagonia proporciona un sonido rico en armónicos y sustain. Cuenta con 2 micrófonos de bobina simple, una selectora de 3 posiciones, un control de volumen y un control de tono master.",
+      "precio": 267000
+    },
+  {
+    "id": 10,
+    "imagen": "./archivo/productos/squire-tlc.png",
+    "titulo": "Squire telecaster",
+    "descripcion": "Cuerpo construido en madera de Álamo y mastil de Arce. Posee 2 micrófonos V-Mod||Single-Coil para un sonido auténtico y una selectora de 3 posiciones para versatilidad tonal.",
+    "precio": 558000
+  },
+  {
+    "id": 11,
+    "imagen": "./archivo/productos/hound-tlc.png",
+    "titulo": "Hound telecaster",
+    "descripcion": "Construido con madera ligera seleccionada para otorgar comodidad a la hora de tocar de pie. Cuenta con 2 micrófonos que otorgan el sonido brillante e idóneo para géneros como rock, pop, blues o funk y una una selecctora de 3 posciones.",
+    "precio": 250000
+  },
+  {
+    "id": 12,
+    "imagen": "./archivo/productos/rocket-tlc.png",
+    "titulo": "Rocket telecaster",
+    "descripcion": "Cuerpo heche en Álamo lo que da un peso liviano y cómodo para tocar de pie y mastil fabricado con Maple Tostado para darle suavidad. Cuenta con 2 micrófonos de bobina simple para mayor bversatilidad de audio.",
+    "precio": 300000
+  },
+  {
+    "id": 13,
+    "imagen": "./archivo/productos/stagg-tlc.png",
+    "titulo": "Stagg telecaster",
+    "descripcion": "Cuerpo contruido en madera Paulownia maciza lo que reduce su peso y un mastil de Arce con acabado satinado suave. incluye 1 mocrófono de bobina simple y 1 micrófono Humbucker de Alnico lo que otorga distorciones mas pesadas y rockeras sin ruidos de fondo.",
+    "precio": 450000
+  },
+  {
+    "id": 14,
+    "imagen": "./archivo/productos/jet-tlc.png",
+    "titulo": "Jet telecaster",
+    "descripcion": "Cuerpo hecho en madera de Tilo y mastil en Arce que dan comodidad a la hora de tocar. Cuenta con 2 micrófonos simples cerámicos orientados a un sonido con mucho brillo.",
+    "precio": 430000
+  },
+  {
+    "id": 15,
+    "imagen": "./archivo/productos/fender-tlc.png",
+    "titulo": "Fender telecaster",
+    "descripcion": "Cuerpo de Aliso de alta resinancia y mastil de Arce con pefil en C moderna y bordes del diapasón dan mayor comodidad. Equipado con 2 micrófonos de bobina simple Player Series Alnico 5 entregan el clásico y definido golpe twang.",
+    "precio": 2000000
+  }
   ],
 
   "amplificadores": [
@@ -50,7 +120,7 @@
   "pedales": [
     {
       "titulo": "Perro",
-      "imagen": "./archivo/productos/squire-stc.avif",
+      "imagen": "./archivo/productos/squire-stc.png",
       "descripcion": "dfdskjosthesioughodjknkl fjkg  oo oioi oi oihghiou"
     }
   ]
