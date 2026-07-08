@@ -73,7 +73,6 @@ a {
 
 .botones button:hover {
     background-color: rgb(97, 4, 4);
-    /*BORRAR AL CREAR EL ENLASE DE INICIO*/
     color: rgb(212, 160, 23);
     transform: scale(1.05);
 }
@@ -691,6 +690,14 @@ section {
 ========================= */
 @media screen and (max-width: 768px) {
 
+    body {
+        margin-top: 160px;
+    }
+
+    section {
+        scroll-margin-top: 160px;
+    }
+
     .encabezado {
         flex-direction: row;
 
@@ -733,6 +740,10 @@ section {
         height: 45px;
         font-size: 16px;
     }
+
+    section {
+    scroll-margin-top: 90px;
+}
 
     /* Carousel responsive */
     .carousel {
@@ -829,11 +840,12 @@ section {
     .productos {
         flex-direction: column;
         height: auto;
+        justify-content: center;
         align-items: center;
     }
 
     .productos div {
-        width: 90%;
+        width: 100%;
         height: 250px;
     }
 
