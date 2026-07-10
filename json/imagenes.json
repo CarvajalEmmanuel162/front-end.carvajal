@@ -30,8 +30,8 @@
     },
     {
       "id": 5,
-      "imagen": "./archivo/productos/squire-stc.png",
-      "titulo": "Squire strato",
+      "imagen": "./archivo/productos/squier-stc.png",
+      "titulo": "Squier strato",
       "descripcion": "Ideal para principiantes y estudiantes. Esta guitarra de cuerpo liviano posee 3 microfonos y tremolo con palanca.",
       "precio": 310000
     },
@@ -40,7 +40,7 @@
       "imagen": "./archivo/productos/texas-stc.png",
       "titulo": "Texas strato",
       "descripcion": "Construido en madera maciza de Lenga y mastil de Arce con alma regulable, le da un peso aprox. de 3kg que lo hace ideal para tocar parado. Sus 3 micrófonos pasivos regulados mediante selectora de 5 posiciones da un sonido clasico strato.",
-      "precio": 320000      
+      "precio": 320000
     },
     {
       "id": 7,
@@ -55,7 +55,6 @@
       "titulo": "Epiphone strato",
       "descripcion": "Diseño clásico y cómodo, ideal para principiantes y músicos de nivel intermedio. Cuenta con un sonido versátil y definido, perfecto para tocar rock, blues, pop y otros estilos.",
       "precio": 650000
-
     },
     {
       "id": 9,
@@ -64,64 +63,172 @@
       "descripcion": "Diseñado en madera de Lenga de la Patagonia proporciona un sonido rico en armónicos y sustain. Cuenta con 2 micrófonos de bobina simple, una selectora de 3 posiciones, un control de volumen y un control de tono master.",
       "precio": 267000
     },
-  {
-    "id": 10,
-    "imagen": "./archivo/productos/squire-tlc.png",
-    "titulo": "Squire telecaster",
-    "descripcion": "Cuerpo construido en madera de Álamo y mastil de Arce. Posee 2 micrófonos V-Mod||Single-Coil para un sonido auténtico y una selectora de 3 posiciones para versatilidad tonal.",
-    "precio": 558000
-  },
-  {
-    "id": 11,
-    "imagen": "./archivo/productos/hound-tlc.png",
-    "titulo": "Hound telecaster",
-    "descripcion": "Construido con madera ligera seleccionada para otorgar comodidad a la hora de tocar de pie. Cuenta con 2 micrófonos que otorgan el sonido brillante e idóneo para géneros como rock, pop, blues o funk y una una selecctora de 3 posciones.",
-    "precio": 250000
-  },
-  {
-    "id": 12,
-    "imagen": "./archivo/productos/rocket-tlc.png",
-    "titulo": "Rocket telecaster",
-    "descripcion": "Cuerpo heche en Álamo lo que da un peso liviano y cómodo para tocar de pie y mastil fabricado con Maple Tostado para darle suavidad. Cuenta con 2 micrófonos de bobina simple para mayor bversatilidad de audio.",
-    "precio": 300000
-  },
-  {
-    "id": 13,
-    "imagen": "./archivo/productos/stagg-tlc.png",
-    "titulo": "Stagg telecaster",
-    "descripcion": "Cuerpo contruido en madera Paulownia maciza lo que reduce su peso y un mastil de Arce con acabado satinado suave. incluye 1 mocrófono de bobina simple y 1 micrófono Humbucker de Alnico lo que otorga distorciones mas pesadas y rockeras sin ruidos de fondo.",
-    "precio": 450000
-  },
-  {
-    "id": 14,
-    "imagen": "./archivo/productos/jet-tlc.png",
-    "titulo": "Jet telecaster",
-    "descripcion": "Cuerpo hecho en madera de Tilo y mastil en Arce que dan comodidad a la hora de tocar. Cuenta con 2 micrófonos simples cerámicos orientados a un sonido con mucho brillo.",
-    "precio": 430000
-  },
-  {
-    "id": 15,
-    "imagen": "./archivo/productos/fender-tlc.png",
-    "titulo": "Fender telecaster",
-    "descripcion": "Cuerpo de Aliso de alta resinancia y mastil de Arce con pefil en C moderna y bordes del diapasón dan mayor comodidad. Equipado con 2 micrófonos de bobina simple Player Series Alnico 5 entregan el clásico y definido golpe twang.",
-    "precio": 2000000
-  }
+    {
+      "id": 10,
+      "imagen": "./archivo/productos/squier-tlc.png",
+      "titulo": "Squier telecaster",
+      "descripcion": "Cuerpo construido en madera de Álamo y mastil de Arce. Posee 2 micrófonos V-Mod||Single-Coil para un sonido auténtico y una selectora de 3 posiciones para versatilidad tonal.",
+      "precio": 558000
+    },
+    {
+      "id": 11,
+      "imagen": "./archivo/productos/hound-tlc.png",
+      "titulo": "Hound telecaster",
+      "descripcion": "Construido con madera ligera seleccionada para otorgar comodidad a la hora de tocar de pie. Cuenta con 2 micrófonos que otorgan el sonido brillante e idóneo para géneros como rock, pop, blues o funk y una una selecctora de 3 posciones.",
+      "precio": 250000
+    },
+    {
+      "id": 12,
+      "imagen": "./archivo/productos/rocket-tlc.png",
+      "titulo": "Rocket telecaster",
+      "descripcion": "Cuerpo heche en Álamo lo que da un peso liviano y cómodo para tocar de pie y mastil fabricado con Maple Tostado para darle suavidad. Cuenta con 2 micrófonos de bobina simple para mayor bversatilidad de audio.",
+      "precio": 300000
+    },
+    {
+      "id": 13,
+      "imagen": "./archivo/productos/stagg-tlc.png",
+      "titulo": "Stagg telecaster",
+      "descripcion": "Cuerpo contruido en madera Paulownia maciza lo que reduce su peso y un mastil de Arce con acabado satinado suave. incluye 1 mocrófono de bobina simple y 1 micrófono Humbucker de Alnico lo que otorga distorciones mas pesadas y rockeras sin ruidos de fondo.",
+      "precio": 450000
+    },
+    {
+      "id": 14,
+      "imagen": "./archivo/productos/jet-tlc.png",
+      "titulo": "Jet telecaster",
+      "descripcion": "Cuerpo hecho en madera de Tilo y mastil en Arce que dan comodidad a la hora de tocar. Cuenta con 2 micrófonos simples cerámicos orientados a un sonido con mucho brillo.",
+      "precio": 430000
+    },
+    {
+      "id": 15,
+      "imagen": "./archivo/productos/fender-tlc.png",
+      "titulo": "Fender telecaster",
+      "descripcion": "Cuerpo de Aliso de alta resinancia y mastil de Arce con pefil en C moderna y bordes del diapasón dan mayor comodidad. Equipado con 2 micrófonos de bobina simple Player Series Alnico 5 entregan el clásico y definido golpe twang.",
+      "precio": 2000000
+    }
   ],
 
   "amplificadores": [
     {
-      "imagen": "./archivo/productos/",
-      "titulo": "Amplificador",
-      "descripcion": "dfdskjosthesioughodjknkl fjkg  oo oioi oi oihghiou"
-      
+      "id": 16,
+      "imagen": "./archivo/productos/ampFender.webp",
+      "titulo": "Fender champion ||",
+      "descripcion": "Ofrece 25 W RMS con un altavoz de 8 pulgadas Fender Special Design, una perilla Voice con diferentes simulaciones de amplificador y efectos digitales como reverb, delay, chorus, trémolo y vibratone, además de TAP Tempo para sincronizar los efectos con el ritmo.",
+      "precio": 348200
+    },
+    {
+      "id": 17,
+      "imagen": "./archivo/productos/ampYamaha.png",
+      "titulo": "Yamaha GA-15",
+      "descripcion": "El Yamaha GA-15 es un amplificador de guitarra de 15 W con altavoz de 6,5 pulgadas, ideal para práctica. Ofrece canales Clean y Drive, ecualización de 3 bandas (graves, medios y agudos) y salida para auriculares, brindando un sonido versátil y fácil de usar para principiantes y ensayos en casa.",
+      "precio": 336900
+    },
+    {
+      "id": 18,
+      "imagen": "./archivo/productos/ampRocket.png",
+      "titulo": "Rocket Rg-25",
+      "descripcion": "El Rocket RG-25 es un amplificador de guitarra de 25 W, ideal para práctica y ensayos. Cuenta con canales Clean y Overdrive, ecualización de 3 bandas y un altavoz de 8 pulgadas, ofreciendo un sonido versátil para distintos estilos musicales.",
+      "precio": 176700
+    },
+    {
+      "id": 19,
+      "imagen": "./archivo/productos/ampRoss.png",
+      "titulo": "Ross G-25r",
+      "descripcion": "El Ross G-25R es un amplificador de guitarra de 25 W con reverb integrada, canales Clean y Drive, ecualización de 3 bandas y altavoz de 8 pulgadas, ideal para práctica, ensayos y obtener una amplia variedad de sonidos.",
+      "precio": 249500
+    },
+    {
+      "id": 20,
+      "imagen": "./archivo/productos/ampMarshall.png",
+      "titulo": "Marshall Mg15",
+      "descripcion": "El Marshall MG15 es un amplificador de guitarra de 15 W con altavoz de 8 pulgadas, canales Clean y Overdrive, ecualización de 3 bandas y la clásica sonoridad Marshall, ideal para práctica y ensayos en espacios pequeños.",
+      "precio": 407700
+    },
+    {
+      "id": 21,
+      "imagen": "./archivo/productos/ampBox.png",
+      "titulo": "Box vt20x",
+      "descripcion": "El Vox VT20X es un amplificador de guitarra de 20 W con tecnología de modelado Valvetronix, que ofrece múltiples simulaciones de amplificadores y efectos integrados. Su altavoz de 8 pulgadas y sus amplias opciones de personalización lo hacen ideal para práctica, grabación y ensayos.",
+      "precio": 529000
+    },
+    {
+      "id": 22,
+      "imagen": "./archivo/productos/ampPeavey.png",
+      "titulo": "Peavey solo",
+      "descripcion": "El Peavey Solo es un amplificador de guitarra compacto, ideal para práctica. Ofrece canales Clean y Lead, ecualización de 3 bandas y un sonido potente y definido, característico de la marca, perfecto para estudiar y tocar en casa.",
+      "precio": 400000
+    },
+    {
+      "id": 21,
+      "imagen": "./archivo/productos/ampSquier.png",
+      "titulo": "Squier sp-10",
+      "descripcion": "El Squier SP-10 es un amplificador de guitarra de 10 W, compacto y fácil de usar, ideal para práctica. Cuenta con control de ganancia, volumen, ecualización básica y un sonido limpio con opción de saturación para principiantes y uso doméstico.",
+      "precio": 260500
     }
   ],
 
   "pedales": [
     {
-      "titulo": "Perro",
-      "imagen": "./archivo/productos/squire-stc.png",
-      "descripcion": "dfdskjosthesioughodjknkl fjkg  oo oioi oi oihghiou"
+      "id": 22,
+      "imagen": "./archivo/productos/bossDS-1.png",
+      "titulo": "Boss distortion DS-1",
+      "descripcion": "El Boss DS-1 Distortion es un pedal de distorsión clásico que ofrece desde un overdrive agresivo hasta una distorsión potente y definida. Cuenta con controles de Tone, Level y Distortion, siendo una opción versátil para rock, punk y metal.",
+      "precio": 180000
+    },
+    {
+      "id": 23,
+      "imagen": "./archivo/productos/bossSD-1.png",
+      "titulo": "Boss Super-Overdrive DS-1",
+      "descripcion": "El Boss SD-1 Super OverDrive es un pedal de overdrive clásico que ofrece una saturación cálida y natural, ideal para blues, rock y para potenciar el canal de un amplificador. Cuenta con controles de Level, Tone y Drive, proporcionando un sonido dinámico y versátil.",
+      "precio": 180000
+    },
+    {
+      "id": 24,
+      "imagen": "./archivo/productos/bossTR-2.png",
+      "titulo": "Boss Tremolo TR-2",
+      "descripcion": "El Boss TR-2 Tremolo es un pedal de modulación que recrea el clásico efecto de trémolo, variando el volumen de la señal para crear pulsaciones rítmicas. Cuenta con controles de Rate, Wave y Depth, ideal para sonidos vintage y ambientes expresivos.",
+      "precio": 260000
+    },
+    {
+      "id": 25,
+      "imagen": "./archivo/productos/bossDD-3T.png",
+      "titulo": "Boss Digital Delay DD-3T",
+      "descripcion": "El Boss DD-3T Digital Delay es un pedal de delay digital clásico que ofrece ecos claros y definidos, con hasta 800 ms de tiempo de retardo, función Tap Tempo y modo Loop/Hold. Cuenta con controles de E.Level, F.Back, D.Time y Mode, ideal para rock, pop, ambient y solos con profundidad.",
+      "precio": 357000
+    },
+    {
+      "id": 26,
+      "imagen":"./archivo/productos/boss-me80.png",
+      "titulo": "Boss me80",
+      "descripcion": "El Boss ME-80 es una pedalera multiefectos para guitarra con más de 50 efectos, simulaciones de amplificadores, distorsiones, modulaciones, delays y reverb. Incluye pedal de expresión, afinador, función looper y conexión USB, ideal para práctica, ensayo y presentaciones en vivo.",
+      "precio": 1180000
+    },
+    {
+      "id": 27,
+      "imagen": "./archivo/productos/zoom-g5n.png",
+      "titulo": "Zoom g5n",
+      "descripcion": "El Zoom G5n es una pedalera multiefectos para guitarra con más de 80 efectos, simulaciones de amplificadores, gabinetes, pedal de expresión, looper, ritmos integrados y conexión USB para grabación. Es ideal para práctica, estudio y presentaciones en vivo por su gran variedad de sonidos.",
+      "precio": 775000
+    },
+    {
+      "id": 28,
+      "imagen": "./archivo/productos/mooer-ge200.png",
+      "titulo": "Moer GE200",
+      "descripcion": "El Mooer GE200 es una pedalera multiefectos para guitarra con 55 simulaciones de amplificadores, 26 modelos de gabinetes, más de 70 efectos, looper, caja de ritmos y conexión USB para grabación. Su formato compacto y versátil la hace ideal para práctica, estudio y presentaciones en vivo.",
+      "precio": 590000
+    },
+    {
+      "id": 29,
+      "imagen": "./archivo/productos/boss-gt-1.png",
+      "titulo": "Boss GT-1",
+      "descripcion": "El Boss GT-1 es una pedalera multiefectos compacta para guitarra con más de 100 efectos, simulaciones de amplificadores, distorsiones, modulaciones, delays y reverb. Incluye pedal de expresión, afinador, looper y conexión USB para grabación, ideal para práctica, estudio y presentaciones en vivo.",
+      "precio": 530000
+    },
+    {
+      "id": 30,
+      "imagen": "./archivo/productos/digitech-rp360xp.png",
+      "titulo": "Digitech RP360XP",
+      "descripcion": "El DigiTech RP360XP es una pedalera multiefectos para guitarra con más de 160 efectos, incluyendo simulaciones de amplificadores, gabinetes y pedales. Cuenta con pedal de expresión, looper de 40 segundos, caja de ritmos, afinador, presets editables y conexión USB para grabación, ideal para práctica, estudio y presentaciones en vivo.",
+      "precio": 600000
     }
   ]
 }
